@@ -17,7 +17,6 @@ const registerForm = (brwoser, data) => {
 
 }
 
-
 module.exports ={
     registerForm: registerForm,
 
