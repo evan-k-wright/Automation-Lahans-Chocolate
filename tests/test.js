@@ -10,5 +10,7 @@ module.exports = {
 
     },
 
-    
+    'Registering': browser => {
+        functions.registerForm(browser, data)
+    }
 }
