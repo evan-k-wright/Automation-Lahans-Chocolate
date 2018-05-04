@@ -17,7 +17,24 @@ const registerForm = (brwoser, data) => {
 
 }
 
+const loginLogout = (browser, data) => {
+    let loginLogout = browser.page.loginLogout()
+    loginLogout.navigate()
+    loginLogout
+        .waitForElementVisible('@login', 5000)
+        .click('@login')
+        .waitForElementVisible('@googleLogin', 5000)
+        .click('@googleLogin')
+        .waitForElementVisible('@enterEmail', 5000)
+        .setValue('@enterEmail', data.googleEmail)
+        .click('@next')
+        .waitForElementVisible('@enterPassword', 5000)
+        .setValue('@enterPassword', data.password)
+        .click('@next')
+        .waitForElementVisible('@helloName', 5000)
+}
 module.exports ={
+    loginLogout: loginLogout,
     registerForm: registerForm,
 
 }

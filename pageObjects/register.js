@@ -8,10 +8,13 @@ module.exports = {
         lastNameInput: 'input[placeholder="Last Name"]',
         phoneInput: 'input[placeholder="Phone Number"]',
         registerButton: 'a[href="/register"]',
+
+        //xpath selector
         registerTitle: {
             selector: '//h1[.="Register"]',
             locateStrategy: 'xpath'
         },
+
         reTypeEmailInput: 'input[placeholder="Re-Type Email"]',
         stateInput: 'input[placeholder="State"]',
         zipCodeInput: 'input[placeholder="Zip Code"]',

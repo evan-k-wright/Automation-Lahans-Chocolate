@@ -1,4 +1,9 @@
 module.exports = {
+    //logingLogout
+    googleEmail: 'rideburtonsnow3@gmail.com',
+    password: 'Emerica.03',
+
+    //register.js 
     firstName: 'Evan',
     lastName: 'Wright',
     address: '1288 W 1150 N',
