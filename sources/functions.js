@@ -15,6 +15,14 @@ const registerForm = (brwoser, data) => {
         .setValue('@phoneInput', data.phoneNumber)
         .setValue('@emailInput', data.email)
         .setValue('@reTypeEmailInput', data.reTypeEmail)
+        .waitForElementVisible('@registerAccount', 5000)
+        .click('@registerAccount')
+        .waitForElementVisible('@googleLogin', 5000)
+        .click('@googleLogin')
+        .waitForElementVisible('@googleAccount', 5000)
+        .click('@googleAccount')
+        .waitForElementVisible('@helloName', 5000)
+        .click('@logout')
 
 }
 
