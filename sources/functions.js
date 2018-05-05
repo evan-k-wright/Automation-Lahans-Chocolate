@@ -7,6 +7,7 @@ const registerForm = (brwoser, data) => {
         .waitForElementPresent('@registerTitle', 5000)
         .setValue('@firstNameInput', data.firstName)
         .setValue('@lastNameInput', data.lastName)
+        .setValue('@companyInput', data.company)
         .setValue('@addressInput', data.address)
         .setValue('@cityInput', data.city)
         .setValue('@stateInput', data.state)

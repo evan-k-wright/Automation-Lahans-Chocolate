@@ -10,11 +10,11 @@ module.exports = {
 
     },
 
-    // 'Registering': browser => {
-    //     functions.registerForm(browser, data)
-    // },
-
-    'Login and Logout': browser => {
-        functions.loginLogout(browser, data)
+    'Registering': browser => {
+        functions.registerForm(browser, data)
     },
+
+    // 'Login and Logout': browser => {
+    //     functions.loginLogout(browser, data)
+    // },
 }
