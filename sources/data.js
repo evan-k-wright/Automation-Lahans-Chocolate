@@ -11,6 +11,7 @@ module.exports = {
     city: 'Layton',
     state: 'UT',
     zipCode: '84041',
+    googlePassword: 'Glock22.40',
     phoneNumber: '555-555-5555',
     email: 'ekwrighttest002@gmail.com',
     reTypeEmail: 'ekwrighttest002@gmail.com',
