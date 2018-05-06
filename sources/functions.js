@@ -48,6 +48,9 @@ const loginLogout = (browser, data) => {
 }
 
 const products = (brwoser) => {
+    let loginLogout = browser.page.loginLogout();
+        products = browser.page.products();
+            
 }
 
 module.exports ={
