@@ -46,6 +46,10 @@ const loginLogout = (browser, data) => {
         .click('@next')
         .waitForElementVisible('@helloName', 5000)
 }
+
+const products = (brwoser) => {
+}
+
 module.exports ={
     loginLogout: loginLogout,
     registerForm: registerForm,
