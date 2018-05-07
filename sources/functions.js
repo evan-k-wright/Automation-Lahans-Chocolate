@@ -48,13 +48,18 @@ const loginLogout = (browser, data) => {
 }
 
 const products = (brwoser) => {
-    let loginLogout = browser.page.loginLogout();
-        products = browser.page.products();
+    let products = browser.page.products();
+    products.navigate()
+    products
+        .waitForElementVisible('@productButton')
+        .click('@productButton')
+
             
 }
 
 module.exports ={
     loginLogout: loginLogout,
+    products: products,
     registerForm: registerForm,
 
 }
