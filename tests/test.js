@@ -7,7 +7,7 @@ module.exports = {
     },
 
     after: browser => {
-        browser.end()
+        //browser.end()
 
     },
 

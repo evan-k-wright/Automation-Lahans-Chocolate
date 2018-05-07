@@ -8,13 +8,26 @@ module.exports = {
             locateStrategy: 'xpath'
         },
 
+        //path
+        halfPoundBox:{
+            selector: '//h1[.="Half Pound Box"]',
+            locateStrategy: 'xpath'
+        },
+        halfPound: 'a[href="/halfpound/9"]',
+
         //xpath
         lePetiteBox: {
             selector: '//h1[.="Le Petite Box"]',
             locateStrategy: 'xpath'
         },
-
         lePetite: 'a[href="/lepetite/8"]',
+
+        //xpath
+        onePoundBox: {
+            selector: '//h1[.="One Pound Box"]',
+            locateStrategy: 'xpath'
+        },
+        onePound: 'a[href="/onepound/10"]',
 
         //xpath
         productButton: {
