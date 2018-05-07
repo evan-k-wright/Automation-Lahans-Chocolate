@@ -9,6 +9,14 @@ module.exports = {
         },
 
         //xpath
+        lePetiteBox: {
+            selector: '//h1[.="Le Petite Box"]',
+            locateStrategy: 'xpath'
+        },
+
+        lePetite: 'a[href="/lepetite/8"]',
+
+        //xpath
         productButton: {
             selector: '(//a[@href="/products"])[1]',
             locateStrategy: 'xpath'

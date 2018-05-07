@@ -47,12 +47,19 @@ const loginLogout = (browser, data) => {
         .waitForElementVisible('@helloName', 5000)
 }
 
-const products = (brwoser) => {
+const products = (browser) => {
     let products = browser.page.products();
     products.navigate()
     products
-        .waitForElementVisible('@productButton')
+        .waitForElementVisible('@productButton', 5000)
         .click('@productButton')
+        .waitForElementVisible('@boxedChocolates', 5000)
+        .waitForElementVisible('@lePetite', 5000)
+        .click('@lePetite')
+        .waitForElementVisible('@lePetiteBox', 5000)
+        browser.pause(2000)
+        browser.back()
+        .waitForElementVisible('@boxedChocolates', 5000)
 
             
 }
