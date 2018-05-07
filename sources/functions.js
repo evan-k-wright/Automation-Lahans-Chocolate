@@ -57,11 +57,9 @@ const products = (browser) => {
         .waitForElementVisible('@lePetite', 5000)
         .click('@lePetite')
         .waitForElementVisible('@lePetiteBox', 5000)
-        browser.pause(2000)
-        browser.back()
+        .click('@productButton')
         .waitForElementVisible('@boxedChocolates', 5000)
-
-            
+                    
 }
 
 module.exports ={
