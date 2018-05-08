@@ -74,6 +74,9 @@ const products = (browser) => {
         .waitForElementVisible('@twoPoundBox', 5000)
         .click('@productButton')
         .waitForElementVisible('@boxedChocolates', 5000)
+        .waitForElementVisible('@rockyRoad', 5000)
+        .click('@rockyRoad')
+        .waitForElementVisible('@rockyRoadTitle', 5000)
 
 }
 

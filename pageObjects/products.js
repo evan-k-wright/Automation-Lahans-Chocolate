@@ -25,15 +25,22 @@ module.exports = {
         },
         onePound: 'a[href="/onepound/10"]',
 
+        productButton: {
+            selector: '(//a[@href="/products"])[1]',
+            locateStrategy: 'xpath'
+        },
+
+        rockyRoadTitle: {
+            selector: '//h1[.="Rocky Road"]',
+            locateStrategy: 'xpath'
+        },
+        rockyRoad: 'a[href="/rockyroad/1"]',
+
         twoPoundBox: {
             selector: '//h1[.="Two Pound Box"]',
             locateStrategy: 'xpath'
         },
         twoPound: 'a[href="/twopound/11"]',
 
-        productButton: {
-            selector: '(//a[@href="/products"])[1]',
-            locateStrategy: 'xpath'
-        },
     }
 }
