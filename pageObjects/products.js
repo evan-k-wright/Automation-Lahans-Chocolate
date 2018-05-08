@@ -30,6 +30,13 @@ module.exports = {
         onePound: 'a[href="/onepound/10"]',
 
         //xpath
+        twoPoundBox: {
+            selector: '//a[h1.=" Two Pound Box"]',
+            locateStrategy: 'xpath'
+        },
+        twoPound: 'a[href.="/twopound/11"]',
+
+        //xpath
         productButton: {
             selector: '(//a[@href="/products"])[1]',
             locateStrategy: 'xpath'
