@@ -31,10 +31,10 @@ module.exports = {
 
         //xpath
         twoPoundBox: {
-            selector: '//a[h1.=" Two Pound Box"]',
+            selector: '//h1[.="Two Pound Box"]',
             locateStrategy: 'xpath'
         },
-        twoPound: 'a[href.="/twopound/11"]',
+        twoPound: 'a[href="/twopound/11"]',
 
         //xpath
         productButton: {
