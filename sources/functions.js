@@ -82,7 +82,13 @@ const products = (browser) => {
         .waitForElementVisible('@pretzelRod', 5000)
         .click('@pretzelRod')
         .waitForElementVisible('@pretzelRodTitle', 5000)
-
+        .click('@productButton')
+        .waitForElementVisible('@boxedChocolates', 5000)
+        .waitForElementPresent('@lahnaBar', 5000)
+        .click('@lahnaBar')
+        .waitForElementVisible('@lahnaBarTitle', 5000)
+        .click('@productButton')
+        .waitForElementVisible('@boxedChocolates', 5000)
 }
 
 module.exports ={

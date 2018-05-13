@@ -12,6 +12,12 @@ module.exports = {
             locateStrategy: 'xpath'
         },
         halfPound: 'a[href="/halfpound/9"]',
+        
+        lahnaBarTitle: {
+            selector: '//h1[.="Lahna Bar"]',
+            locateStrategy: 'xpath'
+        },
+        lahnaBar: 'a[href="/lahnabar/3"]',
 
         lePetiteBox: {
             selector: '//h1[.="Le Petite Box"]',
