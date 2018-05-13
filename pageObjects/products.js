@@ -25,6 +25,12 @@ module.exports = {
         },
         onePound: 'a[href="/onepound/10"]',
 
+        pretzelRodTitle: {
+            selector: '//h1[.="Pretzel Rod"]',
+            locateStrategy: 'xpath'
+        },
+        pretzelRod: 'a[href="/pretzelrod/2"]',
+
         productButton: {
             selector: '(//a[@href="/products"])[1]',
             locateStrategy: 'xpath'
