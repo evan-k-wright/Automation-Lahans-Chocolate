@@ -7,6 +7,18 @@ module.exports = {
             locateStrategy: 'xpath'
         },
 
+        caramelLollipopTitle: {
+            selector: '//h1[.="Caramel Lollipop"]',
+            locateStrategy: 'xpath'
+        },
+        caramelLollipop: 'a[href="/lollipop/4"]',
+
+        grandmasCaramelsTitle: {
+            selector: '//h1',
+            locateStrategy: 'xpath'
+        },
+        grandmasCaramels: 'a[href="/caramels/6"]',
+
         halfPoundBox:{
             selector: '//h1[.="Half Pound Box"]',
             locateStrategy: 'xpath'
@@ -25,11 +37,23 @@ module.exports = {
         },
         lePetite: 'a[href="/lepetite/8"]',
 
+        licoriceTitle: {
+            selector: '//h1',
+            locateStrategy: 'xpath'
+        },
+        licorice: 'a[href="/licorice/7"]',
+
         onePoundBox: {
             selector: '//h1[.="One Pound Box"]',
             locateStrategy: 'xpath'
         },
         onePound: 'a[href="/onepound/10"]',
+
+        oreosTitle: {
+            selector: '//h1[.="Chocolate Dipped Oreos"]',
+            locateStrategy: 'xpath'
+        },
+        oreos: 'a[href="/oreos/5"]',
 
         pretzelRodTitle: {
             selector: '//h1[.="Pretzel Rod"]',
@@ -53,6 +77,8 @@ module.exports = {
             locateStrategy: 'xpath'
         },
         twoPound: 'a[href="/twopound/11"]',
+
+        websiteLogo: 'a[href="/"]',
 
     }
 }
