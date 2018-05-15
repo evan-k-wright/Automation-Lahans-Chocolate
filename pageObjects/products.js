@@ -2,6 +2,8 @@ module.exports = {
     url: 'http://138.68.58.73:5050/',
     elements: {
 
+        bigPicture: 'a[class="hero-link"]',
+        
         boxedChocolates: {
             selector: '//h1[.="Boxed Chocolates"]',
             locateStrategy: 'xpath'

@@ -112,6 +112,8 @@ const products = (browser) => {
         .waitForElementVisible('@websiteLogo', 5000)
         .click('@websiteLogo')
         .waitForElementVisible('@websiteLogo', 5000)
+        .waitForElementVisible('@bigPicture', 5000)
+        .click('@bigPicture')
 }
 
 module.exports ={
