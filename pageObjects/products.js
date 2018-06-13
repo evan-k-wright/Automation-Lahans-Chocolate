@@ -45,6 +45,8 @@ module.exports = {
         },
         licorice: 'a[href="/licorice/7"]',
 
+        logo: 'div[class="logo"]',
+
         onePoundBox: {
             selector: '//h1[.="One Pound Box"]',
             locateStrategy: 'xpath'
