@@ -45,7 +45,7 @@ module.exports = {
         },
         licorice: 'a[href="/licorice/7"]',
 
-        logo: 'div[class="logo"]',
+        logo: 'a[href="/"]',
 
         onePoundBox: {
             selector: '//h1[.="One Pound Box"]',

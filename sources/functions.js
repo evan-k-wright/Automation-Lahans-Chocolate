@@ -117,9 +117,12 @@ const products = (browser) => {
         .waitForElementVisible('@boxedChocolates', 5000)
         .click('@logo')
         .waitForElementVisible('@bigPicture', 5000)
-        // .waitForElementVisible('@lePetite',  5000)
-        // .click('@lePetite')
-        // .waitForElementVisible('@lePetiteBox', 5000)
+        .waitForElementVisible('@lePetite',  5000)
+        .click('@lePetite')
+        .waitForElementVisible('@lePetiteBox', 5000)
+        .click('@logo')
+        .waitForElementVisible('@lePetite', 5000)
+        
 }
 
 module.exports ={
